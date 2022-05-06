@@ -1,0 +1,69 @@
+package Ejercicio1;
+
+public class Empleado {
+
+	private String dni;
+	private String nombre;
+	private String apellido;
+	private int sueldo;
+	private int id;
+
+	public Empleado(String dni, String nombre, String apellido, int sueldo, int id) {
+		this.dni = dni;
+		this.nombre = nombre;
+		this.apellido = apellido;
+		this.sueldo = sueldo;
+		this.id = id;
+	}
+
+	public String getDni() {
+		return dni;
+	}
+
+	@Override
+	public String toString() {
+		return "Empleado [dni=" + dni + ", nombre=" + nombre + ", apellido=" + apellido + ", sueldo=" + sueldo + ", id="
+				+ id + "]";
+	}
+
+	public void setDni(String dni) {
+		this.dni = dni;
+	}
+
+	public boolean equals(Empleado emp) {
+		return this.equals(emp);
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public void setApellido(String apellido) {
+		this.apellido = apellido;
+	}
+
+	public void setSueldo(int sueldo) {
+		this.sueldo = sueldo;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public String getApellido() {
+		return apellido;
+	}
+
+	public int getSueldo() {
+		return sueldo;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+}
